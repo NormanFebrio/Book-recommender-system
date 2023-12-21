@@ -63,7 +63,7 @@ Setelah dilakukan eksplorasi pada tiap dataset, berikut apa yang telah didapatka
 - Terdapat total 1149780 *rating* dari seluruh pengguna.
 - Berdasarkan penjelasan dari pemilik dataset, *rating* ini terdiri dari *rating* eksplisit dan implisit. *rating* eksplisit adalah *rating* dengan nilai 1 - 10. *rating* implisit adalah *rating* dengan nilai 0.
 
-![Rating Distribution](Rating_Distribution.jpg)
+![Rating Distribution](assets/Rating_Distribution.jpg)
 <center>Gambar 1. Distribusi *rating* Oleh Pengguna</center>
 
 Pada Gambar 1, diketahui bahwa para pengguna banyak yang membaca suatu buku tetapi tidak melakukan penilaian pada buku tersebut. Inilah yang disebut dengan *rating* secara implisit. Kemudian untuk *rating* yang secara eksplisit, pembaca lebih sering menilai buku di antara nilai 5 - 10.
@@ -216,7 +216,7 @@ Keterangan:
 - $y_i$ adalah nilai asli
 - $\hat{y}_i$ adalah nilai prediksi 
 
-![Model Metrics](Model_metrics.jpg)
+![Model Metrics](assets/Model_metrics.jpg)
 <center>Gambar 2. Grafik RMSE Untuk Train dan Validasi Oleh Model</center>
 
 Pada gambar 2, didapatkan nilai RMSE *training* terbaik 0.2923 dan validasi terbaik 0.337. Selisih yang tidak begitu jauh antara RMSE pada *training* dan validasi menjadikan model tidak terlalu *overfitting*. Nilai tersebut merupakan nilai yang cukup baik untuk sebuah sistem rekomendasi dengan metode *Collaborative Filtering*. 
